@@ -5,11 +5,11 @@ import Pagination from './Pagination';
 
 const Post = () => {
   const [data, setData] = useState([]);
-  const [pageNo, setPageNo] = useState(2);
+  const [pageNo, setPageNo] = useState(5);
   useEffect(() =>
   {
     axios.get(`https://picsum.photos/v2/list?page=${pageNo}&limit=5`).then((res)=>setData(res.data))
-  },[])
+  },[pageNo])
   return (
     <div className='container'>
       <div className="post-container">

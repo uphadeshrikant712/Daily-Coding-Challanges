@@ -20,3 +20,30 @@ img
   justify-content: center;
   gap: 40px;
 }
+.prev
+{
+  cursor: pointer;
+
+}
+.pageNo
+{
+  cursor: pointer;
+
+}
+.next
+{
+  cursor: pointer;
+
+}
+.btn
+{
+  padding: 10px 10px;
+  border-radius: 5px;
+  background: black;
+  color: white;
+}
+.active
+{
+  background: white;
+  color: black;
+}
