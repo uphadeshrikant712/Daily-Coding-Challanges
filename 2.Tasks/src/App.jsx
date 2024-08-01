@@ -7,6 +7,7 @@ import Search from './components/4.Search Autocomplete/Search';
 import Form from './components/5.FromHandelingNormalWay/Form';
 import Counter from './components/6.CounterApp/Counter';
 import CounterUseReducer from './components/6.CounterApp/CounterUseReducer';
+import Todo from './components/7.ToDo List/Todo';
 
 const App = () => {
   return (
@@ -16,8 +17,15 @@ const App = () => {
       {/* <ImageCarouseal/> */}
       {/* <Search/> */}
       {/* <Form/> */}
-      <Counter />
-      <CounterUseReducer/>
+
+      {/* --------Counter App-------- */}
+      {/* <Counter /> */}
+      {/* <CounterUseReducer/> */}
+
+      {/* ---------Counter App End -------------- */}
+
+      <Todo/>
+
     </div>
   )
 }
