@@ -8,6 +8,7 @@ import Form from './components/5.FromHandelingNormalWay/Form';
 import Counter from './components/6.CounterApp/Counter';
 import CounterUseReducer from './components/6.CounterApp/CounterUseReducer';
 import Todo from './components/7.ToDo List/Todo';
+import Timer from './components/8.Live Timer/Timer';
 
 const App = () => {
   return (
@@ -24,8 +25,9 @@ const App = () => {
 
       {/* ---------Counter App End -------------- */}
 
-      <Todo/>
+      {/* <Todo/> */}
 
+<Timer/>
     </div>
   )
 }
