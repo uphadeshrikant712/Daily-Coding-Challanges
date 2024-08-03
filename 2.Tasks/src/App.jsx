@@ -9,6 +9,7 @@ import Counter from './components/6.CounterApp/Counter';
 import CounterUseReducer from './components/6.CounterApp/CounterUseReducer';
 import Todo from './components/7.ToDo List/Todo';
 import Timer from './components/8.Live Timer/Timer';
+import MultiStep from './components/9.Multi-Step-Form/MultiStep';
 
 const App = () => {
   return (
@@ -27,7 +28,10 @@ const App = () => {
 
       {/* <Todo/> */}
 
-<Timer/>
+      {/* <Timer /> */}
+
+      <MultiStep/>
+      
     </div>
   )
 }
