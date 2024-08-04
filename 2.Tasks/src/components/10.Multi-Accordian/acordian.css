@@ -1,0 +1,26 @@
+.faq-box
+{
+ text-align: left;
+  background-color: gray;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 6px;
+}
+.question{
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: left;
+  align-self: center;
+}
+.answer
+{
+  /* padding-left: 7vw; */
+  padding: 0px 28px;
+ 
+}
+
+.arrow
+{
+  rotate: 90deg;
+}

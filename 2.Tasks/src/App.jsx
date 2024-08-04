@@ -10,6 +10,7 @@ import CounterUseReducer from './components/6.CounterApp/CounterUseReducer';
 import Todo from './components/7.ToDo List/Todo';
 import Timer from './components/8.Live Timer/Timer';
 import MultiStep from './components/9.Multi-Step-Form/MultiStep';
+import Accordian from './components/10.Multi-Accordian/Accordian';
 
 const App = () => {
   return (
@@ -30,7 +31,9 @@ const App = () => {
 
       {/* <Timer /> */}
 
-      <MultiStep/>
+      {/* <MultiStep/> */}
+
+      <Accordian/>
       
     </div>
   )
