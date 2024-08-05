@@ -11,6 +11,7 @@ import Todo from './components/7.ToDo List/Todo';
 import Timer from './components/8.Live Timer/Timer';
 import MultiStep from './components/9.Multi-Step-Form/MultiStep';
 import Accordian from './components/10.Multi-Accordian/Accordian';
+import Button from './components/11.Button/Button';
 
 const App = () => {
   return (
@@ -33,8 +34,9 @@ const App = () => {
 
       {/* <MultiStep/> */}
 
-      <Accordian/>
-      
+      {/* <Accordian/> */}
+
+      <Button/>      
     </div>
   )
 }
