@@ -1,0 +1,59 @@
+.model
+{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+.main
+{
+  width: 100vw;
+  height: 100vh;
+  background-color: grey;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.mainModel
+{
+  width: 370px;
+  height: 220px;
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  gap: 12px;
+}
+.butt
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 120px;
+  padding-top: 12px;
+}
+.offerAccepted
+{
+  position: absolute;
+  z-index: 1;
+  color: purple;
+  font-size: 32px;
+
+}
+.model1
+{
+  z-index: 0;
+  display: none;
+  background-color: white;
+  background: none;
+}
