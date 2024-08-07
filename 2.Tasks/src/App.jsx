@@ -13,6 +13,8 @@ import MultiStep from './components/9.Multi-Step-Form/MultiStep';
 import Accordian from './components/10.Multi-Accordian/Accordian';
 import Button from './components/11.Button/Button';
 import Model from './components/12.Model/Model';
+import Navbar from './components/13.SticyNavbar/Navbar';
+import Home from './components/13.SticyNavbar/Home';
 
 const App = () => {
   return (
@@ -39,7 +41,10 @@ const App = () => {
 
       {/* <Button/>       */}
 
-      <Model/>
+      {/* <Model/> */}
+
+      <Navbar />
+      <Home/>
     </div>
   )
 }
