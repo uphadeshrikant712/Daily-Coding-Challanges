@@ -1,0 +1,16 @@
+.containet
+{
+  width: 220px;
+  height: 199px;
+  padding:12px 5px;
+  margin: 5px;
+  background-color: rgb(29, 213, 189);
+}
+.calculator
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 12px;
+}
