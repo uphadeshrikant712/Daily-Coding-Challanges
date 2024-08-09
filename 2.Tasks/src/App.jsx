@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+// import './App.css';
 import PasswordEye from './components/1.PasswordEyeToggle/PasswordEye';
 import Post from './components/2.Pagination/Post';
 import ImageCarouseal from './components/3.ImageCarouseal/ImageCarouseal';
@@ -16,6 +16,7 @@ import Model from './components/12.Model/Model';
 import Navbar from './components/13.SticyNavbar/Navbar';
 import Home from './components/13.SticyNavbar/Home';
 import Calculator from './components/14.Calculator/Calculator';
+import Centering from './components/15.Centering Div/Centering';
 
 const App = () => {
   return (
@@ -47,7 +48,9 @@ const App = () => {
       {/* <Navbar />
       <Home/> */}
 
-      <Calculator/>
+      {/* <Calculator/> */}
+
+      <Centering/>
     </div>
   )
 }

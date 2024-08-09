@@ -1,0 +1,36 @@
+.main
+{
+  width: 140px;
+  height: 140px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+.main1
+{
+margin-top: 20vh;
+width: 140px;
+  height: 140px;
+  background-color: green;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.main1 h2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  
+}
+.main2
+{
+  width: 140px;
+  height: 140px;
+  background-color: green;
+  display: grid;
+  place-items: center;
+}
