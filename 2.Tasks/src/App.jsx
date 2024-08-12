@@ -19,6 +19,7 @@ import Calculator from './components/14.Calculator/Calculator';
 import Centering from './components/15.Centering Div/Centering';
 import New from './components/16.New/New';
 import Theme from './components/17.ThemeToggle/Theme';
+import ThemeChanger from './components/18.Theme Changer Advanced/ThemeChanger';
 
 const App = () => {
   return (
@@ -56,9 +57,9 @@ const App = () => {
 
       {/* <New/> */}
 
-      <Theme/>
+      {/* <Theme/> */}
 
-
+        <ThemeChanger/>
     </div>
   )
 }
