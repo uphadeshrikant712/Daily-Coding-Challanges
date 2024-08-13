@@ -1,0 +1,24 @@
+.dark
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+.light
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+.sun
+{
+  color: orange;
+  font-size: 32px;
+}
+.moon
+{
+  color: green;
+  font-size: 32px;
+}
