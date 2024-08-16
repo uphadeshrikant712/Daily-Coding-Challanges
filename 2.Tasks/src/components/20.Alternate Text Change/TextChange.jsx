@@ -1,4 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react'
+
+
 
 const TextChange = () => {
   const [text, setText] = useState("I am Software Engineer");
