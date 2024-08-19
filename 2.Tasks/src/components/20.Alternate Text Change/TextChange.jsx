@@ -11,8 +11,7 @@ const TextChange = () => {
     }, 1000)
     
     return () => clearInterval(intervalId);
-  },
-    [])
+  },[])
   return (
     <div>
       <h1>{text}</h1>
