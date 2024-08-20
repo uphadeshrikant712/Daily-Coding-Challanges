@@ -1,5 +1,5 @@
 import React from 'react';
-// import './App.css';
+import './App.css';
 import PasswordEye from './components/1.PasswordEyeToggle/PasswordEye';
 import Post from './components/2.Pagination/Post';
 import ImageCarouseal from './components/3.ImageCarouseal/ImageCarouseal';
@@ -22,6 +22,7 @@ import Theme from './components/17.ThemeToggle/Theme';
 import ThemeChanger from './components/18.Theme Changer Advanced/ThemeChanger';
 import Themes from './components/19.Theme Changer Icons/Themes';
 import TextChange from './components/20.Alternate Text Change/TextChange';
+import BgChange from './components/21.Button BgChange UseState Advanced/BgChange';
 
 const App = () => {
   return (
@@ -65,7 +66,9 @@ const App = () => {
       
       {/* <Themes/> */}
 
-      <TextChange/>
+      {/* <TextChange/> */}
+
+      <BgChange/>
     </div>
   )
 }

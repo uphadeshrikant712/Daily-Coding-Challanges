@@ -1,0 +1,35 @@
+.bg
+{
+  display: flex;
+  gap: 2px;
+  background-color: black;
+  padding: 200px 150px;
+}
+.button
+{
+  padding: 25px 30px;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  background-color: white;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  color: black;
+  cursor: pointer;
+}
+.active
+{
+  padding: 25px 30px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background-color: cyan;
+  color: black;
+  cursor: pointer;
+
+}
+.button:hover
+{
+  background-color: cyan;
+  color: black;
+  transition: all ease-in .3s;
+}
