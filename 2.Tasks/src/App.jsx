@@ -23,6 +23,7 @@ import ThemeChanger from './components/18.Theme Changer Advanced/ThemeChanger';
 import Themes from './components/19.Theme Changer Icons/Themes';
 import TextChange from './components/20.Alternate Text Change/TextChange';
 import BgChange from './components/21.Button BgChange UseState Advanced/BgChange';
+import CountUp from './components/22.CountUp Normal/CountUp';
 
 const App = () => {
   return (
@@ -68,7 +69,9 @@ const App = () => {
 
       {/* <TextChange/> */}
 
-      <BgChange/>
+      {/* <BgChange /> */}
+      
+      <CountUp/>
     </div>
   )
 }
