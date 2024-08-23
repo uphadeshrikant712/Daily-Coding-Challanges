@@ -25,6 +25,7 @@ import TextChange from './components/20.Alternate Text Change/TextChange';
 import BgChange from './components/21.Button BgChange UseState Advanced/BgChange';
 import CountUp from './components/22.CountUp Normal/CountUp';
 import CountUp2 from './components/22.Two CountUps/CountUp2';
+import C from './components/23.CountUP on OnClick/C';
 
 const App = () => {
   return (
@@ -74,8 +75,8 @@ const App = () => {
       
       {/* <CountUp /> */}
 
-      <CountUp2 />
-      
+      {/* <CountUp2 /> */}
+      <C/>
     </div>
   )
 }
