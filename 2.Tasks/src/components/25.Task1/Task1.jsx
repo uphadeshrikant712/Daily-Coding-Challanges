@@ -18,7 +18,7 @@ const Task1 = () => {
     else {
       alert('Enter Name Please...')
     }
-    inputRef.current.focus()
+    inputRef.current.focus();
   }
 
   return (
@@ -36,7 +36,7 @@ const Task1 = () => {
           placeholder='Enter Name...' />
         <button onClick={handleClick}>Enter</button>
       </div>
-      <h2>Your Name is {name }</h2>
+      <h2>Your Name is {name}</h2>
     </div>
   )
 }
