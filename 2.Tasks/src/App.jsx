@@ -28,6 +28,7 @@ import CountUp2 from './components/22.Two CountUps/CountUp2';
 import C from './components/23.CountUP on OnClick/C';
 import Task from './components/24.Task/Task';
 import Task1 from './components/25.Task1/Task1';
+import TaskNew from './components/26.Tasks/TaskNew';
 
 const App = () => {
   return (
@@ -82,8 +83,9 @@ const App = () => {
 
       {/* <Task/> */}
 
-      <Task1/>
+      {/* <Task1/> */}
 
+      <TaskNew/>
     </div>
   )
 }
