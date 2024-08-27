@@ -18,7 +18,7 @@ const Task1 = () => {
     else {
       alert('Enter Name Please...')
     }
-    inputRef.current.focus();
+    inputRef.current.focus()
   }
 
   return (
