@@ -85,7 +85,7 @@ const App = () => {
 
       {/* <Task1/> */}
 
-      {/* <TaskNew/> */}
+      <TaskNew/>
     </div>
   )
 }
