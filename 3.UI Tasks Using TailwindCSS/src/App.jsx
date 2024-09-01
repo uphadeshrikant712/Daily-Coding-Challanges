@@ -12,7 +12,7 @@ const App = () => {
       {/* <ImageChanger /> */}
       
       {/* <NT /> */}
-      
+
       <TrafficLights />
     </>
   )
