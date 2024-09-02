@@ -11,8 +11,9 @@ const App = () => {
 
       {/* <ImageChanger /> */}
       
-      {/* <NT /> */}
 
+  
+      {/* <NT /> */}
       <TrafficLights />
     </>
   )
