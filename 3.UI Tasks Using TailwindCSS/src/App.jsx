@@ -7,7 +7,7 @@ import TrafficLights from './components/4 Traffic Lights/TrafficLights'
 const App = () => {
   return (
     <>
-      {/* <BgChanger /> */}
+      <BgChanger />
 
      <ImageChanger />
       
