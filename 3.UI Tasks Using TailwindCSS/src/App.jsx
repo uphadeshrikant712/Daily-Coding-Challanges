@@ -4,6 +4,7 @@ import ImageChanger from './components/2 OnClick Image Changer inScreen/ImageCha
 import NT from './components/3 NewTask/NT'
 import TrafficLights from './components/4 Traffic Lights/TrafficLights'
 import CardsFiltering from './components/Filtering Cards FilterMethod/CardsFiltering'
+import ButtonAnimation from './components/4 Button Animation/ButtonAnimation'
 
 const App = () => {
   return (
@@ -17,7 +18,9 @@ const App = () => {
       {/* <NT /> */}
       {/* <TrafficLights /> */}
 
-      <CardsFiltering/>
+      {/* <CardsFiltering/> */}
+
+      <ButtonAnimation/>
     </>
   )
 }
