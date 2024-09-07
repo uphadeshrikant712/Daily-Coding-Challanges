@@ -5,6 +5,7 @@ import NT from './components/3 NewTask/NT'
 import TrafficLights from './components/4 Traffic Lights/TrafficLights'
 import CardsFiltering from './components/Filtering Cards FilterMethod/CardsFiltering'
 import ButtonAnimation from './components/4 Button Animation/ButtonAnimation'
+import AnimationButton from './components/5 Button Animation 2/AnimationButton'
 
 const App = () => {
   return (
@@ -20,7 +21,9 @@ const App = () => {
 
       {/* <CardsFiltering/> */}
 
-      <ButtonAnimation/>
+      {/* <ButtonAnimation/> */}
+
+      <AnimationButton/>
     </>
   )
 }
