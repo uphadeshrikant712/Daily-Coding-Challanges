@@ -18,9 +18,7 @@ const App = () => {
   
       {/* <NT /> */}
       {/* <TrafficLights /> */}
-
       {/* <CardsFiltering/> */}
-
       {/* <ButtonAnimation/> */}
 
       <AnimationButton/>
