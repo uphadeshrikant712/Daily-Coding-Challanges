@@ -21,7 +21,7 @@ const App = () => {
       {/* <CardsFiltering/> */}
       {/* <ButtonAnimation/> */}
 
-      <AnimationButton/>
+      // <AnimationButton/>
     </>
   )
 }
