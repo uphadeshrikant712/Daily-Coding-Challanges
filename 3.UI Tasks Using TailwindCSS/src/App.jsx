@@ -17,11 +17,11 @@ const App = () => {
 
   
       {/* <NT /> */}
-      {/* <TrafficLights /> */}
-      <CardsFiltering/>
+      <TrafficLights />
+      {/* <CardsFiltering/> */}
       // <ButtonAnimation/>
 
-      // <AnimationButton/>
+      {/* // <AnimationButton/> */}
     </>
   )
 }
