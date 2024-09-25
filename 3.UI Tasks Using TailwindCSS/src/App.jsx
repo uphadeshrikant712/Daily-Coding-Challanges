@@ -16,10 +16,10 @@ const App = () => {
       
 
   
-      {/* <NT /> */}
-      {/* <TrafficLights /> */}
+      // {/* <NT /> */}
+      <TrafficLights />
       // <CardsFiltering/>
-      {/* // <ButtonAnimation/> */}
+      // <ButtonAnimation/>
 
       {/* // <AnimationButton/> */}
     </>
