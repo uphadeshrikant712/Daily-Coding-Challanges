@@ -18,8 +18,8 @@ const App = () => {
   
       // <NT />
       <TrafficLights />
-      // <CardsFiltering/>
-      // <ButtonAnimation/>
+      {/* // <CardsFiltering/> */}
+      {/* // <ButtonAnimation/> */}
 
       {/* // <AnimationButton/> */}
     </>
