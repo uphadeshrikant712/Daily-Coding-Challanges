@@ -5,7 +5,7 @@ import GsapFrom from './components/GsapFrom'
 const App = () => {
   return (
     <div>
-      {/* <GsapTo /> */}
+      <GsapTo />
       <GsapFrom/>
     </div>
   )
