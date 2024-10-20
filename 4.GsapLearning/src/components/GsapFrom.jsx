@@ -12,16 +12,7 @@ const GsapFrom = () => {
       duration: 2,
       rotation: 360,
       ease:'bounce.in'
-    }),
-      gsap.from('.green-box', {
-        y: -190,
-        x: 340,
-        repeat: -1,
-        yoyo: true,
-        duration: 2,
-        rotation: 360,
-        ease:'spin'
-      })
+    })
   },[])
   return (
     <div className='w-full min-h-screen bg-slate-900 text-white'>
